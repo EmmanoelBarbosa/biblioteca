@@ -1,0 +1,206 @@
+2025-10-09 22:58:00 [INFO ] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-09 22:58:00 [INFO ] b.c.e.b.BibliotecaApplication - Starting BibliotecaApplication using Java 21.0.7 with PID 25120 (D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca\target\classes started by EmmyeManel in D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca)
+2025-10-09 22:58:00 [INFO ] b.c.e.b.BibliotecaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-09 22:58:00 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-09 22:58:00 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-09 23:01:26 [INFO ] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-09 23:01:26 [INFO ] b.c.e.b.BibliotecaApplication - Starting BibliotecaApplication using Java 21.0.7 with PID 15524 (D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca\target\classes started by EmmyeManel in D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca)
+2025-10-09 23:01:26 [INFO ] b.c.e.b.BibliotecaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-09 23:01:27 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-09 23:01:27 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-09 23:01:28 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-09 23:01:28 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131 ms. Found 5 JPA repository interfaces.
+2025-10-09 23:01:30 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-09 23:01:30 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:01:30 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-09 23:01:30 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-09 23:01:30 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-09 23:01:30 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3200 ms
+2025-10-09 23:01:30 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-09 23:01:30 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-09 23:01:30 [INFO ] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-09 23:01:31 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-09 23:01:31 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-09 23:01:31 [INFO ] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ba97c86
+2025-10-09 23:01:31 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-09 23:01:32 [INFO ] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-09 23:01:34 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-09 23:01:34 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:01:36 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-09 23:01:36 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:01:36 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-09 23:01:36 [INFO ] b.c.e.b.BibliotecaApplication - Started BibliotecaApplication in 10.871 seconds (process running for 12.474)
+2025-10-09 23:01:53 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-09 23:01:53 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-09 23:01:53 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-09 23:08:31 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-09 23:08:31 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-09 23:08:31 [INFO ] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:08:31 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-09 23:08:31 [INFO ] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:08:31 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:08:31 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-09 23:08:31 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-09 23:08:32 [INFO ] b.c.e.b.BibliotecaApplication - Starting BibliotecaApplication using Java 21.0.7 with PID 15524 (D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca\target\classes started by EmmyeManel in D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca)
+2025-10-09 23:08:32 [INFO ] b.c.e.b.BibliotecaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-09 23:08:32 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-09 23:08:32 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+2025-10-09 23:08:32 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-09 23:08:32 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:08:32 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-09 23:08:32 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-09 23:08:32 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-09 23:08:32 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 817 ms
+2025-10-09 23:08:32 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-09 23:08:32 [INFO ] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-09 23:08:32 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-09 23:08:32 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-10-09 23:08:33 [INFO ] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32d9d686
+2025-10-09 23:08:33 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-10-09 23:08:33 [INFO ] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-09 23:08:33 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-09 23:08:33 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:08:33 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-09 23:08:33 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:08:33 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-09 23:08:33 [INFO ] b.c.e.b.BibliotecaApplication - Started BibliotecaApplication in 1.961 seconds (process running for 429.863)
+2025-10-09 23:08:33 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-09 23:09:54 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-09 23:09:54 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-09 23:09:54 [INFO ] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:54 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-09 23:09:54 [INFO ] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:54 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:09:54 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-10-09 23:09:54 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-10-09 23:09:54 [INFO ] b.c.e.b.BibliotecaApplication - Starting BibliotecaApplication using Java 21.0.7 with PID 15524 (D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca\target\classes started by EmmyeManel in D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca)
+2025-10-09 23:09:54 [INFO ] b.c.e.b.BibliotecaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-09 23:09:54 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-09 23:09:54 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+2025-10-09 23:09:54 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-09 23:09:54 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:54 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-09 23:09:54 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-09 23:09:55 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-09 23:09:55 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 777 ms
+2025-10-09 23:09:55 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-09 23:09:55 [INFO ] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-09 23:09:55 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-09 23:09:55 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-10-09 23:09:55 [INFO ] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e5bdd17
+2025-10-09 23:09:55 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-10-09 23:09:55 [INFO ] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-09 23:09:55 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-09 23:09:55 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:09:55 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-09 23:09:55 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:55 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-09 23:09:55 [INFO ] b.c.e.b.BibliotecaApplication - Started BibliotecaApplication in 1.777 seconds (process running for 511.845)
+2025-10-09 23:09:55 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-09 23:09:57 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-09 23:09:57 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-09 23:09:57 [INFO ] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:57 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-09 23:09:57 [INFO ] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:57 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:09:57 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-10-09 23:09:57 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-10-09 23:09:57 [INFO ] b.c.e.b.BibliotecaApplication - Starting BibliotecaApplication using Java 21.0.7 with PID 15524 (D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca\target\classes started by EmmyeManel in D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca)
+2025-10-09 23:09:57 [INFO ] b.c.e.b.BibliotecaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-09 23:09:58 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-09 23:09:58 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+2025-10-09 23:09:58 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-09 23:09:58 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:58 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-09 23:09:58 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-09 23:09:58 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-09 23:09:58 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 831 ms
+2025-10-09 23:09:58 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-09 23:09:58 [INFO ] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-09 23:09:58 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-09 23:09:58 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-10-09 23:09:58 [INFO ] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f8f7723
+2025-10-09 23:09:58 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-10-09 23:09:58 [INFO ] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-09 23:09:58 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-09 23:09:58 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:09:59 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-09 23:09:59 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:09:59 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-09 23:09:59 [INFO ] b.c.e.b.BibliotecaApplication - Started BibliotecaApplication in 1.918 seconds (process running for 515.29)
+2025-10-09 23:09:59 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-09 23:10:56 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-09 23:10:56 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-09 23:10:56 [INFO ] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:10:56 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-09 23:10:56 [INFO ] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:10:56 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:10:56 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-10-09 23:10:56 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-10-09 23:10:57 [INFO ] b.c.e.b.BibliotecaApplication - Starting BibliotecaApplication using Java 21.0.7 with PID 15524 (D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca\target\classes started by EmmyeManel in D:\aulas  Faculdade\Pos BackEndII\Pos BackEndII - 2025.2\exercicio\biblioteca\biblioteca)
+2025-10-09 23:10:57 [INFO ] b.c.e.b.BibliotecaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-09 23:10:57 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-09 23:10:57 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2025-10-09 23:10:57 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-09 23:10:57 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:10:57 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-09 23:10:57 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-09 23:10:57 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-09 23:10:57 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 631 ms
+2025-10-09 23:10:57 [INFO ] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-09 23:10:57 [INFO ] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-09 23:10:57 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-09 23:10:57 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-10-09 23:10:57 [INFO ] com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2caa3302
+2025-10-09 23:10:57 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-10-09 23:10:57 [INFO ] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-09 23:10:58 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-09 23:10:58 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:10:58 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-09 23:10:58 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-09 23:10:58 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-09 23:10:58 [INFO ] b.c.e.b.BibliotecaApplication - Started BibliotecaApplication in 1.567 seconds (process running for 574.547)
+2025-10-09 23:10:58 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-09 23:11:16 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-09 23:11:16 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-09 23:11:16 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-10-09 23:13:05 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-09 23:13:05 [INFO ] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-09 23:13:05 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-09 23:13:05 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-10-09 23:13:05 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
