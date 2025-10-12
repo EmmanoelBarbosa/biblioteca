@@ -1,41 +1,13 @@
 #http://localhost:8080/swagger-ui.html
-openapi: 3.0.3
+openapi: 3.0.1
 info:
   title: API Biblioteca
-  description: API para gerenciar o sistema de empréstimo de livros de uma biblioteca.
+  description: API REST de gerenciamento de biblioteca — autores, livros, exemplares e empréstimos.
   version: 1.0.0
+  contact:
+    name: Emmanoel
+    email: emmanoel@biblioteca.com
 servers:
-  - url: http://localhost:8080/
-tags:
-  - name: Pessoas
-    description: Endpoints para gerenciar pessoas.
-paths:
-  /pessoas:
-    get:
-      summary: Lista todas as pessoas
-      tags:
-        - Pessoas
-      responses:
-        '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Pessoa'
-components:
-  schemas:
-    Pessoa:
-      type: object
-      properties:
-        id:
-          type: integer
-          format: int64
-          description: ID único da pessoa
-        nome:
-          type: string
-          description: Nome completo da pessoa
-        cpf:
-          type: string
-          description: CPF da pessoa
+  - url: http://localhost:8080
+    description: Servidor local
+paths: { }
